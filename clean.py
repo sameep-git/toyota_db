@@ -68,7 +68,14 @@ df.rename(columns={
 "City_FE_Alternative" : "City_FE",
 "Hwy2 Fuel FE (Guide) - Alternative Fuel" : "Hwy_FE",
 "Comb2 Fuel FE (Guide) - Alternative Fuel" : "Comb_FE"
-    })
+    }, inplace=True)
 
+df['Savings_5Yrs'] = -df['Savings_5Yrs'].abs()
+df['Savings_5Yrs'].fillna(df['Spending_5Yrs'], inplace=True)
+
+df.drop("Spending_5Yrs", axis=1, inplace=True)
+df.rename(columns={
+    "Savings_5Yrs" : "Money_5Yrs"
+}, inplace=True)
 print(df)
 df.to_csv("data.csv", index=False)
