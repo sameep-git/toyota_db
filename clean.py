@@ -54,13 +54,21 @@ df = df.loc[:,~df.columns.duplicated()].copy()
 df['Division'].replace('Volvo Cars of North America, LLC', 'Volvo', inplace=True)
 df['Division'].replace('Aston Martin Lagonda Ltd', 'Aston Martin', inplace=True)
 df['Division'].replace('\"Ferrari North America, Inc.\"', 'Ferrari', inplace=True)
-df['City_FE_Alternative'].fillna(df['City_FE_Conventional']).rename("City_FE")
-df['Hwy2 Fuel FE (Guide) - Alternative Fuel'].fillna(df['Hwy_FE_Conventional']).rename("Hwy_FE")
-df['Comb2 Fuel FE (Guide) - Alternative Fuel'].fillna(df['Comb_FE_Conventional']).rename("Comb_FE")
+
+
+df['City_FE_Alternative'].fillna(df['City_FE_Conventional'], inplace=True)
+df['Hwy2 Fuel FE (Guide) - Alternative Fuel'].fillna(df['Hwy_FE_Conventional'], inplace=True)
+df['Comb2 Fuel FE (Guide) - Alternative Fuel'].fillna(df['Comb_FE_Conventional'], inplace=True)
 
 df.drop("City_FE_Conventional", axis=1, inplace=True)
 df.drop("Hwy_FE_Conventional", axis=1, inplace=True)
 df.drop("Comb_FE_Conventional", axis=1, inplace=True)
+
+df.rename(columns={
+"City_FE_Alternative" : "City_FE",
+"Hwy2 Fuel FE (Guide) - Alternative Fuel" : "Hwy_FE",
+"Comb2 Fuel FE (Guide) - Alternative Fuel" : "Comb_FE"
+    })
 
 print(df)
 df.to_csv("data.csv", index=False)
