@@ -1,7 +1,7 @@
 Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hwy_FE_Conventional,Hwy2 Fuel FE (Guide) - Alternative Fuel,Comb_FE_Conventional,Comb2 Fuel FE (Guide) - Alternative Fuel,Annual_Fuel_Cost_Conventional,Annual_Fuel_Cost_Alternative,Fuel_Efficiency_Rating,GHG_Rating,Savings_5Yrs,Spending_5Yrs,City_CO2,Hwy_CO2,Comb_CO2
 2021,Honda,Acura,NSX,21,,22,,21,,2300,,4,4,,4000.0,420,406,420
-2021,aston martin,Aston Martin Lagonda Ltd,Vantage Manual,14,,21,,17,,2850,,3,3,,6750.0,636,426,541
-2021,aston martin,Aston Martin Lagonda Ltd,Vantage V8,18,,24,,20,,2450,,4,4,,4750.0,494,364,435
+2021,aston martin,Aston Martin,Vantage Manual,14,,21,,17,,2850,,3,3,,6750.0,636,426,541
+2021,aston martin,Aston Martin,Vantage V8,18,,24,,20,,2450,,4,4,,4750.0,494,364,435
 2021,Volkswagen Group of,Audi,R8,13,,20,,16,,3050,,2,2,,7750.0,663,450,567
 2021,Volkswagen Group of,Audi,R8 2WD,14,,23,,17,,2850,,3,3,,6750.0,645,386,528
 2021,Volkswagen Group of,Audi,R8 Spyder,13,,20,,16,,3050,,2,2,,7750.0,663,450,567
@@ -12,10 +12,10 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2021,Volkswagen Group of,Bugatti,Chiron,9,,14,,11,,4450,,1,1,,14750.0,1010,632,840
 2021,Volkswagen Group of,Bugatti,Chiron Pur Sport,8,,13,,10,,4900,,1,1,,17000.0,1055,695,893
 2021,General Motors,Chevrolet,CORVETTE,15,,27,,19,,2550,,3,3,,5250.0,581,329,467
-2021,Ferrari,"Ferrari North America, Inc.",812 GTS,12,,15,,13,,3750,,1,1,,11250.0,733,581,665
-2021,Ferrari,"Ferrari North America, Inc.",812 Superfast,12,,16,,13,,3750,,1,1,,11250.0,747,557,661
-2021,Ferrari,"Ferrari North America, Inc.",F8 Spider,15,,18,,16,,3050,,2,2,,7750.0,606,487,552
-2021,Ferrari,"Ferrari North America, Inc.",F8 Tributo,15,,19,,16,,3050,,2,2,,7750.0,605,462,541
+2021,Ferrari,Ferrari,812 GTS,12,,15,,13,,3750,,1,1,,11250.0,733,581,665
+2021,Ferrari,Ferrari,812 Superfast,12,,16,,13,,3750,,1,1,,11250.0,747,557,661
+2021,Ferrari,Ferrari,F8 Spider,15,,18,,16,,3050,,2,2,,7750.0,606,487,552
+2021,Ferrari,Ferrari,F8 Tributo,15,,19,,16,,3050,,2,2,,7750.0,605,462,541
 2021,Ford Motor Company,Ford,FORD GT,12,,18,,14,,3500,,1,1,,10000.0,752,485,632
 2021,Jaguar Land Rover L,Jaguar,F-TYPE Convertible,23,,30,,26,,1900,,5,5,,2000.0,386,296,346
 2021,Jaguar Land Rover L,Jaguar,F-TYPE Coupe,23,,30,,26,,1900,,5,5,,2000.0,386,296,346
@@ -70,13 +70,13 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2021,Porsche,Porsche,718 Spyder,17,,23,,19,,2550,,3,3,,5250.0,524,382,460
 2021,BMW,TOYOTA,Supra 2.0,25,,32,,28,,1750,,6,6,,1250.0,358,275,321
 2021,BMW,TOYOTA,Supra 3.0,22,,30,,25,,1950,,5,5,,2250.0,396,297,351
-2021,aston martin,Aston Martin Lagonda Ltd,DB11 V12,15,,22,,18,,2700,,3,3,,6000.0,579,397,497
-2021,aston martin,Aston Martin Lagonda Ltd,DB11 V8,18,,24,,20,,2450,,4,4,,4750.0,486,365,431
-2021,aston martin,Aston Martin Lagonda Ltd,DBS,14,,22,,17,,2850,,3,3,,6750.0,618,404,522
+2021,aston martin,Aston Martin,DB11 V12,15,,22,,18,,2700,,3,3,,6000.0,579,397,497
+2021,aston martin,Aston Martin,DB11 V8,18,,24,,20,,2450,,4,4,,4750.0,486,365,431
+2021,aston martin,Aston Martin,DBS,14,,22,,17,,2850,,3,3,,6750.0,618,404,522
 2021,Volkswagen Group of,Bentley,Continental GT Convertible,16,,26,,19,,2550,,3,3,,5250.0,570,344,468
 2021,Volkswagen Group of,Bentley,Continental GT Convertible,12,,19,,15,,3250,,2,2,,8750.0,716,459,601
-2021,Ferrari,"Ferrari North America, Inc.",Portofino,16,,22,,18,,2700,,3,3,,6000.0,560,394,485
-2021,Ferrari,"Ferrari North America, Inc.",Portofino M,16,,23,,19,,2550,,3,3,,5250.0,539,386,471
+2021,Ferrari,Ferrari,Portofino,16,,22,,18,,2700,,3,3,,6000.0,560,394,485
+2021,Ferrari,Ferrari,Portofino M,16,,23,,19,,2550,,3,3,,5250.0,539,386,471
 2021,Toyota,LEXUS,LC 500 CONVERTIBLE,15,,25,,18,,2700,,3,3,,6000.0,598,356,489
 2021,Lotus,Lotus Cars Ltd,Evora GT,17,,24,,20,,2450,,4,4,,4750.0,501,361,438
 2021,Lotus,Lotus Cars Ltd,Evora GT,17,,26,,20,,2450,,4,4,,4750.0,525,338,441
@@ -154,7 +154,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2021,General Motors,Chevrolet,SPARK,29,,38,,33,,1250,,7,7,1250.0,,303,236,273
 2021,General Motors,Chevrolet,SPARK ACTIV,30,,37,,33,,1250,,7,7,1250.0,,292,240,266
 2021,General Motors,Chevrolet,SPARK ACTIV,29,,37,,32,,1250,,7,7,1250.0,,303,240,278
-2021,Ferrari,"Ferrari North America, Inc.",Roma,17,,22,,19,,2550,,3,3,,5250.0,532,398,472
+2021,Ferrari,Ferrari,Roma,17,,22,,19,,2550,,3,3,,5250.0,532,398,472
 2021,Ford Motor Company,Ford,MUSTANG,21,,32,,25,,1600,,5,5,,500.0,415,279,354
 2021,Ford Motor Company,Ford,MUSTANG,21,,32,,25,,1600,,5,5,,500.0,416,282,356
 2021,Ford Motor Company,Ford,MUSTANG,21,,29,,24,,1700,,5,5,,1000.0,429,304,373
@@ -326,9 +326,9 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2021,Volkswagen Group of,Volkswagen,Jetta,30,,41,,34,,1200,,7,7,1500.0,,295,218,260
 2021,Volkswagen Group of,Volkswagen,Jetta GLI,24,,35,,28,,1450,,6,6,250.0,,362,254,314
 2021,Volkswagen Group of,Volkswagen,Jetta GLI,24,,33,,28,,1450,,6,6,250.0,,364,264,319
-2021,Volvo,"Volvo Cars of North America, LLC",S60 AWD,22,,33,,26,,1900,,5,5,,2000.0,406,270,345
-2021,Volvo,"Volvo Cars of North America, LLC",S60 AWD,21,,32,,25,,1950,,5,5,,2250.0,413,277,352
-2021,Volvo,"Volvo Cars of North America, LLC",S60 FWD,23,,34,,27,,1800,,6,6,,1500.0,376,256,322
+2021,Volvo,Volvo,S60 AWD,22,,33,,26,,1900,,5,5,,2000.0,406,270,345
+2021,Volvo,Volvo,S60 AWD,21,,32,,25,,1950,,5,5,,2250.0,413,277,352
+2021,Volvo,Volvo,S60 FWD,23,,34,,27,,1800,,6,6,,1500.0,376,256,322
 2021,FCA US LLC,ALFA ROMEO,Giulia,24,,33,,27,,1800,,6,6,,1500.0,377,273,330
 2021,FCA US LLC,ALFA ROMEO,Giulia,17,,25,,20,,2450,,4,4,,4750.0,507,349,436
 2021,FCA US LLC,ALFA ROMEO,Giulia AWD,23,,31,,26,,1900,,5,5,,2000.0,395,291,348
@@ -474,7 +474,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2021,Toyota,TOYOTA,PRIUS AWD,51,,47,,49,,850,,9,9,3250.0,,172,187,179
 2021,Toyota,TOYOTA,PRIUS Eco,58,,53,,56,,700,,10,10,4000.0,,152,166,158
 2021,Volkswagen Group of,Volkswagen,Passat,24,,36,,28,,1450,,6,6,250.0,,368,248,314
-2021,Volvo,"Volvo Cars of North America, LLC",S90 AWD,21,,32,,25,,1950,,5,5,,2250.0,422,277,356
+2021,Volvo,Volvo,S90 AWD,21,,32,,25,,1950,,5,5,,2250.0,422,277,356
 2021,Volkswagen Group of,Audi,A8L,17,,26,,21,,2300,,4,4,,4000.0,508,335,430
 2021,Volkswagen Group of,Audi,A8L,15,,23,,18,,2700,,3,3,,6000.0,580,391,495
 2021,Volkswagen Group of,Audi,S8,13,,22,,16,,3050,,2,2,,7750.0,662,401,545
@@ -569,8 +569,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2021,Subaru,Subaru,IMPREZA 5-Door,24,,31,,26,,1550,,5,5,,250.0,375,286,335
 2021,Subaru,Subaru,IMPREZA 5-Door SPORT,27,,35,,30,,1350,,6,6,750.0,,325,252,292
 2021,Subaru,Subaru,IMPREZA 5-Door SPORT,22,,30,,25,,1600,,5,5,,500.0,397,295,351
-2021,Volvo,"Volvo Cars of North America, LLC",V60 CC AWD,22,,31,,25,,1950,,5,5,,2250.0,410,286,354
-2021,Volvo,"Volvo Cars of North America, LLC",V60 FWD,23,,34,,27,,1800,,6,6,,1500.0,376,256,322
+2021,Volvo,Volvo,V60 CC AWD,22,,31,,25,,1950,,5,5,,2250.0,410,286,354
+2021,Volvo,Volvo,V60 FWD,23,,34,,27,,1800,,6,6,,1500.0,376,256,322
 2021,Volkswagen Group of,Audi,A6 Allroad,20,,26,,22,,2200,,4,4,,3500.0,444,342,398
 2021,Volkswagen Group of,Audi,RS 6 Avant,15,,22,,17,,2850,,3,3,,6750.0,606,401,514
 2021,Mercedes-Benz,Mercedes-Benz,AMG E 63 S 4MATIC+ (SW),16,,23,,18,,2700,,3,3,,6000.0,557,392,483
@@ -580,9 +580,9 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2021,Nissan,NISSAN,MURANO FWD,20,,28,,23,,1750,,5,5,,1250.0,434,319,387
 2021,Rolls-Royce,Rolls-Royce Motor Cars Limited,Cullinan,12,,20,,14,,3500,,1,1,,10000.0,755,451,618
 2021,Rolls-Royce,Rolls-Royce Motor Cars Limited,Cullinan Black Badge,12,,20,,14,,3500,,1,1,,10000.0,755,451,618
-2021,Volvo,"Volvo Cars of North America, LLC",V90 AWD,21,,32,,25,,1950,,5,5,,2250.0,422,277,356
-2021,Volvo,"Volvo Cars of North America, LLC",V90 CC AWD,20,,30,,24,,2050,,5,5,,2750.0,433,299,373
-2021,Volvo,"Volvo Cars of North America, LLC",V90 FWD,22,,33,,26,,1900,,5,5,,2000.0,401,267,339
+2021,Volvo,Volvo,V90 AWD,21,,32,,25,,1950,,5,5,,2250.0,422,277,356
+2021,Volvo,Volvo,V90 CC AWD,20,,30,,24,,2050,,5,5,,2750.0,433,299,373
+2021,Volvo,Volvo,V90 FWD,22,,33,,26,,1900,,5,5,,2000.0,401,267,339
 2021,General Motors,Chevrolet,COLORADO 2WD,19,,25,,22,,1850,,4,4,,1750.0,461,355,413
 2021,General Motors,Chevrolet,COLORADO 2WD,20,,30,,23,,1950,,5,4,,2250.0,510,343,435
 2021,General Motors,Chevrolet,COLORADO 2WD,18,,25,,21,,1950,,4,4,,2250.0,484,349,424
@@ -834,8 +834,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2021,Volkswagen Group of,Volkswagen,Atlas Cross Sport,21,,24,,22,,1850,,4,4,,1750.0,427,368,401
 2021,Volkswagen Group of,Volkswagen,Atlas Cross Sport,18,,23,,20,,2000,,4,4,,2500.0,507,386,453
 2021,Volkswagen Group of,Volkswagen,Tiguan,23,,29,,25,,1600,,5,5,,500.0,391,307,353
-2021,Volvo,"Volvo Cars of North America, LLC",XC40 FWD,23,,32,,26,,1550,,5,5,,250.0,389,281,340
-2021,Volvo,"Volvo Cars of North America, LLC",XC60 FWD,22,,29,,25,,1950,,5,5,,2250.0,405,303,359
+2021,Volvo,Volvo,XC40 FWD,23,,32,,26,,1550,,5,5,,250.0,389,281,340
+2021,Volvo,Volvo,XC60 FWD,22,,29,,25,,1950,,5,5,,2250.0,405,303,359
 2021,Honda,Acura,RDX AWD,21,,27,,23,,2100,,5,5,,3000.0,415,322,385
 2021,Honda,Acura,RDX AWD A-SPEC,21,,26,,23,,2100,,5,5,,3000.0,423,342,387
 2021,FCA US LLC,ALFA ROMEO,Stelvio AWD,22,,28,,24,,2050,,5,5,,2750.0,407,311,364
@@ -997,9 +997,9 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2021,Volkswagen Group of,Volkswagen,Atlas Cross Sport 4Motion,20,,24,,22,,1850,,4,4,,1750.0,442,377,413
 2021,Volkswagen Group of,Volkswagen,Atlas Cross Sport 4Motion,17,,23,,19,,2150,,3,3,,3250.0,524,392,464
 2021,Volkswagen Group of,Volkswagen,Tiguan 4Motion,21,,27,,24,,1700,,5,5,,1000.0,415,324,374
-2021,Volvo,"Volvo Cars of North America, LLC",XC40 AWD,22,,30,,25,,1950,,5,5,,2250.0,410,296,359
-2021,Volvo,"Volvo Cars of North America, LLC",XC60 AWD,20,,27,,23,,2100,,5,5,,3000.0,439,322,386
-2021,Volvo,"Volvo Cars of North America, LLC",XC60 AWD,21,,28,,24,,2050,,5,5,,2750.0,422,318,375
+2021,Volvo,Volvo,XC40 AWD,22,,30,,25,,1950,,5,5,,2250.0,410,296,359
+2021,Volvo,Volvo,XC60 AWD,20,,27,,23,,2100,,5,5,,3000.0,439,322,386
+2021,Volvo,Volvo,XC60 AWD,21,,28,,24,,2050,,5,5,,2750.0,422,318,375
 2021,BMW,BMW,X5 sDrive40i,21,,26,,23,,2100,,5,5,,3000.0,416,343,383
 2021,BMW,BMW,X6 sDrive40i,21,,26,,23,,2100,,5,5,,3000.0,416,343,383
 2021,General Motors,Buick,ENCLAVE FWD,18,,26,,21,,1950,,4,4,,2250.0,492,342,420
@@ -1048,8 +1048,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2021,Nissan,NISSAN,ARMADA 2WD,14,,19,,16,,3050,,2,2,,7750.0,630,470,558
 2021,Toyota,TOYOTA,4RUNNER 2WD,16,,19,,17,,2400,,3,3,,4500.0,539,460,503
 2021,Toyota,TOYOTA,SEQUOIA 2WD,13,,17,,15,,2700,,2,2,,6000.0,686,513,608
-2021,Volvo,"Volvo Cars of North America, LLC",XC90 FWD,21,,30,,25,,1950,,5,5,,2250.0,413,296,361
-2021,aston martin,Aston Martin Lagonda Ltd,DBX V8,14,,18,,15,,3250,,2,2,,8750.0,644,483,572
+2021,Volvo,Volvo,XC90 FWD,21,,30,,25,,1950,,5,5,,2250.0,413,296,361
+2021,aston martin,Aston Martin,DBX V8,14,,18,,15,,3250,,2,2,,8750.0,644,483,572
 2021,Volkswagen Group of,Audi,Q7,19,,23,,21,,2300,,4,4,,4000.0,464,378,425
 2021,Volkswagen Group of,Audi,Q7,18,,23,,20,,2450,,4,4,,4750.0,504,391,453
 2021,Volkswagen Group of,Audi,Q8,18,,23,,20,,2450,,4,4,,4750.0,504,391,453
@@ -1177,11 +1177,11 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2021,Toyota,TOYOTA,LAND CRUISER WAGON 4WD,13,,17,,14,,2900,,1,1,,7000.0,698,520,618
 2021,Toyota,TOYOTA,SEQUOIA 4WD,13,,17,,14,,2900,,1,1,,7000.0,697,521,618
 2021,Volkswagen Group of,Volkswagen,Atlas 4Motion,16,,22,,18,,2250,,3,3,,3750.0,547,409,485
-2021,Volvo,"Volvo Cars of North America, LLC",XC90 AWD,19,,28,,22,,2200,,4,4,,3500.0,456,318,394
-2021,Volvo,"Volvo Cars of North America, LLC",XC90 AWD,20,,28,,23,,2100,,5,5,,3000.0,433,314,380
+2021,Volvo,Volvo,XC90 AWD,19,,28,,22,,2200,,4,4,,3500.0,456,318,394
+2021,Volvo,Volvo,XC90 AWD,20,,28,,23,,2100,,5,5,,3000.0,433,314,380
 2022,Honda,Acura,NSX,21,,22,,21,,2100,,4,4,,4000.0,420,406,420
 2022,Honda,Acura,NSX,21,,22,,21,,2100,,4,4,,4000.0,420,406,420
-2022,aston martin,Aston Martin Lagonda Ltd,Vantage V8,18,,24,,20,,2200,,4,4,,4500.0,494,364,435
+2022,aston martin,Aston Martin,Vantage V8,18,,24,,20,,2200,,4,4,,4500.0,494,364,435
 2022,Volkswagen Group of,Audi,R8 Coupe,13,,19,,15,,2950,,2,2,,8250.0,670,453,572
 2022,Volkswagen Group of,Audi,R8 Coupe RWD,14,,23,,17,,2600,,3,3,,6500.0,627,385,518
 2022,Volkswagen Group of,Audi,R8 Spyder,13,,19,,15,,2950,,2,2,,8250.0,670,453,572
@@ -1193,10 +1193,10 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2022,Volkswagen Group of,Bugatti,Chiron Pur Sport,8,,11,,9,,4900,,1,1,,18000.0,1135,788,979
 2022,Volkswagen Group of,Bugatti,Chiron Super Sport,8,,11,,9,,4900,,1,1,,18000.0,1135,788,979
 2022,General Motors,Chevrolet,CORVETTE,16,,24,,19,,2350,,4,4,,5250.0,571,365,478
-2022,Ferrari,"Ferrari North America, Inc.",812 Competizione,12,,16,,14,,3150,,2,2,,9250.0,724,564,652
-2022,Ferrari,"Ferrari North America, Inc.",812 GTS,12,,15,,13,,3400,,1,1,,10500.0,733,581,665
-2022,Ferrari,"Ferrari North America, Inc.",F8 Spider,15,,18,,16,,2750,,3,3,,7250.0,606,487,552
-2022,Ferrari,"Ferrari North America, Inc.",F8 Tributo,15,,19,,16,,2750,,3,3,,7250.0,605,462,541
+2022,Ferrari,Ferrari,812 Competizione,12,,16,,14,,3150,,2,2,,9250.0,724,564,652
+2022,Ferrari,Ferrari,812 GTS,12,,15,,13,,3400,,1,1,,10500.0,733,581,665
+2022,Ferrari,Ferrari,F8 Spider,15,,18,,16,,2750,,3,3,,7250.0,606,487,552
+2022,Ferrari,Ferrari,F8 Tributo,15,,19,,16,,2750,,3,3,,7250.0,605,462,541
 2022,Ford Motor Company,Ford,FORD GT,12,,18,,14,,3150,,2,2,,9250.0,752,485,632
 2022,Jaguar Land Rover L,Jaguar,F-TYPE P450 AWD R-Dynamic Conv,16,,24,,18,,2450,,3,3,,5750.0,571,369,481
 2022,Jaguar Land Rover L,Jaguar,F-TYPE P450 AWD R-Dynamic Coupe,16,,24,,18,,2450,,3,3,,5750.0,571,369,481
@@ -1244,12 +1244,12 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2022,Porsche,Porsche,911 GT3 Touring,14,,18,,16,,2750,,3,3,,7250.0,635,490,570
 2022,BMW,TOYOTA,Supra 2.0,25,,32,,28,,1600,,6,6,,1500.0,351,274,317
 2022,BMW,TOYOTA,Supra 3.0,22,,30,,25,,1750,,5,5,,2250.0,396,297,351
-2022,aston martin,Aston Martin Lagonda Ltd,DB11 V12,14,,22,,17,,2600,,3,3,,6500.0,618,404,522
-2022,aston martin,Aston Martin Lagonda Ltd,DB11 V8,18,,24,,20,,2200,,4,4,,4500.0,486,365,431
-2022,aston martin,Aston Martin Lagonda Ltd,DBS,14,,22,,17,,2600,,3,3,,6500.0,618,404,522
+2022,aston martin,Aston Martin,DB11 V12,14,,22,,17,,2600,,3,3,,6500.0,618,404,522
+2022,aston martin,Aston Martin,DB11 V8,18,,24,,20,,2200,,4,4,,4500.0,486,365,431
+2022,aston martin,Aston Martin,DBS,14,,22,,17,,2600,,3,3,,6500.0,618,404,522
 2022,Volkswagen Group of,Bentley,Continental GT Speed Convertible,12,,18,,14,,3150,,2,2,,9250.0,761,483,636
 2022,Volkswagen Group of,Bentley,Continental GT V8 Convertible,16,,26,,19,,2350,,4,4,,5250.0,575,347,473
-2022,Ferrari,"Ferrari North America, Inc.",Portofino M,16,,23,,19,,2350,,4,4,,5250.0,539,386,471
+2022,Ferrari,Ferrari,Portofino M,16,,23,,19,,2350,,4,4,,5250.0,539,386,471
 2022,Toyota,LEXUS,LC 500 CONVERTIBLE,15,,25,,18,,2450,,3,3,,5750.0,598,356,489
 2022,Mercedes-Benz,Mercedes-Benz,AMG SL 55 4MATIC+,14,,21,,16,,2750,,3,3,,7250.0,644,426,546
 2022,Mercedes-Benz,Mercedes-Benz,AMG SL 63 4MATIC+,14,,21,,16,,2750,,3,3,,7250.0,644,426,546
@@ -1339,7 +1339,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2022,General Motors,Chevrolet,SPARK,29,,38,,33,,1050,,7,7,1250.0,,303,236,273
 2022,General Motors,Chevrolet,SPARK ACTIV,30,,37,,33,,1050,,7,7,1250.0,,292,240,266
 2022,General Motors,Chevrolet,SPARK ACTIV,29,,37,,32,,1100,,7,7,1000.0,,303,240,278
-2022,Ferrari,"Ferrari North America, Inc.",Roma,17,,22,,19,,2350,,4,4,,5250.0,532,398,472
+2022,Ferrari,Ferrari,Roma,17,,22,,19,,2350,,4,4,,5250.0,532,398,472
 2022,Ford Motor Company,Ford,MUSTANG,22,,32,,25,,1400,,5,5,,500.0,411,276,350
 2022,Ford Motor Company,Ford,MUSTANG,21,,32,,25,,1400,,5,5,,500.0,415,280,354
 2022,Ford Motor Company,Ford,MUSTANG,21,,29,,24,,1450,,5,5,,750.0,430,305,373
@@ -1475,8 +1475,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2022,Volkswagen Group of,Volkswagen,Jetta,31,,41,,35,,1000,,7,7,1500.0,,290,215,256
 2022,Volkswagen Group of,Volkswagen,Jetta,29,,43,,34,,1050,,7,7,1250.0,,302,208,259
 2022,Volkswagen Group of,Volkswagen,Jetta SE/SEL,29,,40,,33,,1050,,7,7,1250.0,,307,221,268
-2022,Volvo,"Volvo Cars of North America, LLC",S60 B5,26,,35,,30,,1500,,6,6,,1000.0,338,251,299
-2022,Volvo,"Volvo Cars of North America, LLC",S60 B5 AWD,25,,33,,28,,1600,,6,6,,1500.0,357,267,316
+2022,Volvo,Volvo,S60 B5,26,,35,,30,,1500,,6,6,,1000.0,338,251,299
+2022,Volvo,Volvo,S60 B5 AWD,25,,33,,28,,1600,,6,6,,1500.0,357,267,316
 2022,FCA US LLC,ALFA ROMEO,Giulia,24,,33,,27,,1650,,6,6,,1750.0,377,273,330
 2022,FCA US LLC,ALFA ROMEO,Giulia,17,,25,,20,,2200,,4,4,,4500.0,507,349,436
 2022,FCA US LLC,ALFA ROMEO,Giulia AWD,23,,31,,26,,1700,,5,5,,2000.0,395,291,348
@@ -1625,7 +1625,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2022,Volkswagen Group of,Volkswagen,GTI,25,,34,,28,,1250,,6,6,250.0,,353,263,312
 2022,Volkswagen Group of,Volkswagen,GTI,24,,34,,28,,1250,,6,6,250.0,,369,258,319
 2022,Volkswagen Group of,Volkswagen,Passat,24,,36,,28,,1250,,6,6,250.0,,368,250,315
-2022,Volvo,"Volvo Cars of North America, LLC",S90 B6 AWD,23,,31,,26,,1700,,5,5,,2000.0,389,282,341
+2022,Volvo,Volvo,S90 B6 AWD,23,,31,,26,,1700,,5,5,,2000.0,389,282,341
 2022,Volkswagen Group of,Audi,A8 L quattro,19,,28,,22,,2000,,5,5,,3500.0,472,310,399
 2022,Volkswagen Group of,Audi,S8,14,,23,,17,,2600,,3,3,,6500.0,633,381,520
 2022,BMW,BMW,740i Sedan,22,,29,,25,,1750,,5,5,,2250.0,403,309,360
@@ -1720,7 +1720,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2022,Subaru,Subaru,IMPREZA 5-Door,24,,31,,26,,1350,,5,5,,250.0,375,286,335
 2022,Subaru,Subaru,IMPREZA SPORT 5-Door,27,,35,,30,,1200,,6,6,500.0,,325,252,292
 2022,Subaru,Subaru,IMPREZA SPORT 5-Door,22,,30,,25,,1400,,5,5,,500.0,397,295,351
-2022,Volvo,"Volvo Cars of North America, LLC",V60CC T5 AWD,22,,31,,25,,1750,,5,5,,2250.0,410,289,355
+2022,Volvo,Volvo,V60CC T5 AWD,22,,31,,25,,1750,,5,5,,2250.0,410,289,355
 2022,Volkswagen Group of,Audi,A6 Allroad quattro,21,,28,,23,,1900,,5,5,,3000.0,430,312,377
 2022,Volkswagen Group of,Audi,RS 6 Avant,15,,22,,17,,2600,,3,3,,6500.0,606,401,514
 2022,Mercedes-Benz,Mercedes-Benz,AMG GLB 35 4MATIC,20,,27,,22,,2000,,5,5,,3500.0,452,327,396
@@ -1729,7 +1729,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2022,Nissan,NISSAN,MURANO FWD,20,,28,,23,,1550,,5,5,,1250.0,435,319,387
 2022,Rolls-Royce,Rolls-Royce Motor Cars Limited,Cullinan,12,,20,,14,,3150,,2,2,,9250.0,755,450,618
 2022,Rolls-Royce,Rolls-Royce Motor Cars Limited,Cullinan Black Badge,12,,20,,14,,3150,,2,2,,9250.0,755,450,618
-2022,Volvo,"Volvo Cars of North America, LLC",V90CC B6 AWD,22,,29,,25,,1750,,5,5,,2250.0,393,301,352
+2022,Volvo,Volvo,V90CC B6 AWD,22,,29,,25,,1750,,5,5,,2250.0,393,301,352
 2022,General Motors,Chevrolet,COLORADO 2WD,19,,25,,22,,1600,,5,5,,1500.0,461,355,413
 2022,General Motors,Chevrolet,COLORADO 2WD,20,,30,,23,,1650,,5,4,,1750.0,510,343,435
 2022,General Motors,Chevrolet,COLORADO 2WD,18,,25,,21,,1700,,4,4,,2000.0,484,349,424
@@ -1985,8 +1985,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2022,Volkswagen Group of,Volkswagen,Atlas Cross Sport,18,,24,,20,,1750,,4,4,,2250.0,485,374,435
 2022,Volkswagen Group of,Volkswagen,Taos,28,,36,,31,,1150,,7,7,750.0,,317,248,286
 2022,Volkswagen Group of,Volkswagen,Tiguan,23,,30,,26,,1350,,5,5,,250.0,387,296,346
-2022,Volvo,"Volvo Cars of North America, LLC",XC40 T4,23,,32,,26,,1350,,5,5,,250.0,389,281,340
-2022,Volvo,"Volvo Cars of North America, LLC",XC60 B5,23,,30,,26,,1700,,5,5,,2000.0,382,299,345
+2022,Volvo,Volvo,XC40 T4,23,,32,,26,,1350,,5,5,,250.0,389,281,340
+2022,Volvo,Volvo,XC60 B5,23,,30,,26,,1700,,5,5,,2000.0,382,299,345
 2022,Honda,Acura,MDX AWD,19,,25,,21,,2100,,4,4,,4000.0,477,357,423
 2022,Honda,Acura,RDX AWD,21,,27,,23,,1900,,5,5,,3000.0,415,322,385
 2022,Honda,Acura,RDX AWD A-SPEC,21,,26,,23,,1900,,5,5,,3000.0,425,343,388
@@ -2159,9 +2159,9 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2022,Volkswagen Group of,Volkswagen,Taos 4Motion,25,,32,,28,,1250,,6,6,250.0,,358,279,323
 2022,Volkswagen Group of,Volkswagen,Tiguan 4Motion,22,,29,,25,,1400,,5,5,,500.0,401,303,357
 2022,Volkswagen Group of,Volkswagen,Tiguan R-Line 4Motion,21,,28,,24,,1450,,5,5,,750.0,415,313,369
-2022,Volvo,"Volvo Cars of North America, LLC",XC40 T5 AWD,22,,30,,25,,1750,,5,5,,2250.0,411,296,359
-2022,Volvo,"Volvo Cars of North America, LLC",XC60 B5 AWD,22,,28,,24,,1850,,5,5,,2750.0,397,314,360
-2022,Volvo,"Volvo Cars of North America, LLC",XC60 B6 AWD,21,,27,,24,,1850,,5,5,,2750.0,411,326,373
+2022,Volvo,Volvo,XC40 T5 AWD,22,,30,,25,,1750,,5,5,,2250.0,411,296,359
+2022,Volvo,Volvo,XC60 B5 AWD,22,,28,,24,,1850,,5,5,,2750.0,397,314,360
+2022,Volvo,Volvo,XC60 B6 AWD,21,,27,,24,,1850,,5,5,,2750.0,411,326,373
 2022,BMW,BMW,X5 sDrive40i,21,,26,,23,,1900,,5,5,,3000.0,416,343,383
 2022,General Motors,Buick,ENCLAVE FWD,18,,26,,21,,1700,,4,4,,2000.0,491,342,424
 2022,General Motors,Cadillac,ESCALADE 2WD,21,,27,,23,,1650,,5,4,,1750.0,476,378,442
@@ -2214,9 +2214,9 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2022,Nissan,NISSAN,ARMADA 2WD,14,,19,,16,,2750,,3,3,,7250.0,630,470,558
 2022,Toyota,TOYOTA,4RUNNER 2WD,16,,19,,17,,2050,,3,3,,3750.0,539,460,503
 2022,Toyota,TOYOTA,SEQUOIA 2WD,13,,17,,15,,2350,,2,2,,5250.0,670,523,604
-2022,Volvo,"Volvo Cars of North America, LLC",XC90 T5,21,,30,,25,,1750,,5,5,,2250.0,413,296,361
+2022,Volvo,Volvo,XC90 T5,21,,30,,25,,1750,,5,5,,2250.0,413,296,361
 2022,Honda,Acura,MDX AWD Type-S,17,,21,,19,,2350,,4,4,,5250.0,523,414,474
-2022,aston martin,Aston Martin Lagonda Ltd,DBX V8,14,,20,,16,,2750,,3,3,,7250.0,641,453,556
+2022,aston martin,Aston Martin,DBX V8,14,,20,,16,,2750,,3,3,,7250.0,641,453,556
 2022,Volkswagen Group of,Audi,Q7 quattro,20,,25,,22,,2000,,5,5,,3500.0,449,352,406
 2022,Volkswagen Group of,Audi,Q7 quattro,18,,23,,20,,2200,,4,4,,4500.0,479,391,440
 2022,Volkswagen Group of,Audi,Q8 quattro,18,,23,,20,,2200,,4,4,,4500.0,479,391,440
@@ -2361,10 +2361,10 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2022,Toyota,TOYOTA,HIGHLANDER HYBRID AWD,35,,35,,35,,1000,,7,7,1500.0,,252,256,254
 2022,Toyota,TOYOTA,HIGHLANDER HYBRID AWD LTD/PLAT,35,,34,,35,,1000,,7,7,1500.0,,248,259,253
 2022,Toyota,TOYOTA,SEQUOIA 4WD,13,,17,,14,,2500,,2,2,,6000.0,697,522,618
-2022,Volvo,"Volvo Cars of North America, LLC",XC90 T5 AWD,20,,28,,23,,1900,,5,5,,3000.0,433,314,380
-2022,Volvo,"Volvo Cars of North America, LLC",XC90 T6 AWD,19,,27,,22,,2000,,5,5,,3500.0,464,333,405
-2023,aston martin,Aston Martin Lagonda Ltd,V12 Vantage,14,,22,,16,,3400,,3,3,,9000.0,659,413,548
-2023,aston martin,Aston Martin Lagonda Ltd,Vantage V8,18,,24,,20,,2750,,4,4,,5750.0,494,364,435
+2022,Volvo,Volvo,XC90 T5 AWD,20,,28,,23,,1900,,5,5,,3000.0,433,314,380
+2022,Volvo,Volvo,XC90 T6 AWD,19,,27,,22,,2000,,5,5,,3500.0,464,333,405
+2023,aston martin,Aston Martin,V12 Vantage,14,,22,,16,,3400,,3,3,,9000.0,659,413,548
+2023,aston martin,Aston Martin,Vantage V8,18,,24,,20,,2750,,4,4,,5750.0,494,364,435
 2023,Volkswagen Group of,Audi,R8 Coupe quattro,13,,18,,15,,3650,,2,2,,10250.0,663,479,580
 2023,Volkswagen Group of,Audi,R8 Coupe RWD,14,,23,,17,,3200,,3,3,,8000.0,621,384,515
 2023,Volkswagen Group of,Audi,R8 GT RWD,14,,21,,17,,3200,,3,3,,8000.0,612,423,527
@@ -2379,14 +2379,14 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2023,General Motors,Chevrolet,CORVETTE,16,,24,,19,,2900,,4,4,,6500.0,576,371,480
 2023,General Motors,Chevrolet,CORVETTE Z06,12,,21,,15,,3650,,2,2,,10250.0,731,433,597
 2023,General Motors,Chevrolet,CORVETTE Z06 CARBON AERO,12,,19,,14,,3900,,2,2,,11500.0,754,480,631
-2023,Ferrari,"Ferrari North America, Inc.",812 Competizione,12,,16,,14,,3900,,2,2,,11500.0,724,564,652
-2023,Ferrari,"Ferrari North America, Inc.",812 Competizione A,12,,16,,14,,3900,,2,2,,11500.0,727,550,648
-2023,Ferrari,"Ferrari North America, Inc.",812 GTS,12,,15,,13,,4200,,1,1,,13000.0,733,581,665
-2023,Ferrari,"Ferrari North America, Inc.",F8 Spider,15,,18,,16,,3400,,3,3,,9000.0,606,487,552
-2023,Ferrari,"Ferrari North America, Inc.",F8 Tributo,15,,19,,16,,3400,,3,3,,9000.0,605,462,541
-2023,Ferrari,"Ferrari North America, Inc.",Ferrari Daytona SP3,12,,16,,13,,4200,,1,1,,13000.0,745,556,660
-2023,Ferrari,"Ferrari North America, Inc.",Ferrari Monza SP1,12,,15,,13,,4200,,1,1,,13000.0,722,580,658
-2023,Ferrari,"Ferrari North America, Inc.",Ferrari Monza SP2,12,,15,,13,,4200,,1,1,,13000.0,722,580,658
+2023,Ferrari,Ferrari,812 Competizione,12,,16,,14,,3900,,2,2,,11500.0,724,564,652
+2023,Ferrari,Ferrari,812 Competizione A,12,,16,,14,,3900,,2,2,,11500.0,727,550,648
+2023,Ferrari,Ferrari,812 GTS,12,,15,,13,,4200,,1,1,,13000.0,733,581,665
+2023,Ferrari,Ferrari,F8 Spider,15,,18,,16,,3400,,3,3,,9000.0,606,487,552
+2023,Ferrari,Ferrari,F8 Tributo,15,,19,,16,,3400,,3,3,,9000.0,605,462,541
+2023,Ferrari,Ferrari,Ferrari Daytona SP3,12,,16,,13,,4200,,1,1,,13000.0,745,556,660
+2023,Ferrari,Ferrari,Ferrari Monza SP1,12,,15,,13,,4200,,1,1,,13000.0,722,580,658
+2023,Ferrari,Ferrari,Ferrari Monza SP2,12,,15,,13,,4200,,1,1,,13000.0,722,580,658
 2023,Jaguar Land Rover L,Jaguar,F-TYPE P450 AWD R-Dynamic Conv,16,,24,,18,,3050,,4,4,,7250.0,571,369,481
 2023,Jaguar Land Rover L,Jaguar,F-TYPE P450 AWD R-Dynamic Coupe,16,,24,,18,,3050,,4,4,,7250.0,571,369,481
 2023,Jaguar Land Rover L,Jaguar,F-TYPE P450 RWD Convertible,17,,24,,19,,2900,,4,4,,6500.0,536,367,460
@@ -2434,12 +2434,12 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2023,BMW,TOYOTA,Supra 2.0,25,,31,,27,,2050,,5,5,,2250.0,350,288,322
 2023,BMW,TOYOTA,Supra 3.0,23,,31,,26,,2100,,5,5,,2500.0,385,289,342
 2023,BMW,TOYOTA,Supra 3.0,19,,27,,21,,2600,,4,4,,5000.0,476,331,411
-2023,aston martin,Aston Martin Lagonda Ltd,DB11 V12,14,,22,,17,,3200,,3,3,,8000.0,618,404,522
-2023,aston martin,Aston Martin Lagonda Ltd,DB11 V8,18,,24,,20,,2750,,4,4,,5750.0,486,365,431
-2023,aston martin,Aston Martin Lagonda Ltd,DBS,14,,22,,17,,3200,,3,3,,8000.0,618,404,522
+2023,aston martin,Aston Martin,DB11 V12,14,,22,,17,,3200,,3,3,,8000.0,618,404,522
+2023,aston martin,Aston Martin,DB11 V8,18,,24,,20,,2750,,4,4,,5750.0,486,365,431
+2023,aston martin,Aston Martin,DBS,14,,22,,17,,3200,,3,3,,8000.0,618,404,522
 2023,Volkswagen Group of,Bentley,Continental GT Convertible,15,,22,,18,,3050,,4,4,,7250.0,599,396,508
 2023,Volkswagen Group of,Bentley,Continental GT Convertible Speed,12,,18,,14,,3900,,2,2,,11500.0,761,483,636
-2023,Ferrari,"Ferrari North America, Inc.",Portofino M,16,,23,,19,,2900,,4,4,,6500.0,539,386,471
+2023,Ferrari,Ferrari,Portofino M,16,,23,,19,,2900,,4,4,,6500.0,539,386,471
 2023,Toyota,LEXUS,LC 500 CONVERTIBLE,15,,25,,18,,3050,,4,4,,7250.0,598,356,489
 2023,Mercedes-Benz,Mercedes-Benz,AMG SL 55 4MATIC+,13,,21,,16,,3400,,3,3,,9000.0,676,423,562
 2023,Mercedes-Benz,Mercedes-Benz,AMG SL 63 4MATIC+,14,,22,,16,,3400,,3,3,,9000.0,655,409,544
@@ -2533,7 +2533,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2023,General Motors,Chevrolet,CAMARO,16,,26,,20,,2750,,4,4,,5750.0,545,341,453
 2023,General Motors,Chevrolet,CAMARO,16,,24,,19,,2900,,4,4,,6500.0,563,373,477
 2023,General Motors,Chevrolet,CAMARO,14,,20,,16,,3400,,3,3,,9000.0,645,453,559
-2023,Ferrari,"Ferrari North America, Inc.",Roma,17,,22,,19,,2900,,4,4,,6500.0,532,398,472
+2023,Ferrari,Ferrari,Roma,17,,22,,19,,2900,,4,4,,6500.0,532,398,472
 2023,Ford Motor Company,Ford,MUSTANG,22,,32,,25,,1750,,5,5,,750.0,411,276,350
 2023,Ford Motor Company,Ford,MUSTANG,21,,31,,24,,1850,,5,5,,1250.0,423,290,363
 2023,Ford Motor Company,Ford,MUSTANG,21,,29,,24,,1850,,5,5,,1250.0,428,302,371
@@ -2613,7 +2613,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2023,General Motors,Cadillac,CT4 V,16,,24,,19,,2900,,4,4,,6500.0,568,368,478
 2023,General Motors,Cadillac,CT4 V,15,,23,,18,,3050,,4,4,,7250.0,572,386,488
 2023,General Motors,Cadillac,CT4 V AWD,20,,28,,23,,2400,,5,5,,4000.0,445,318,387
-2023,Ferrari,"Ferrari North America, Inc.",F175 AHA,11,,15,,12,,4550,,1,1,,14750.0,825,573,711
+2023,Ferrari,Ferrari,F175 AHA,11,,15,,12,,4550,,1,1,,14750.0,825,573,711
 2023,Hyundai,GENESIS,G70 AWD,20,,28,,23,,2400,,5,5,,4000.0,451,324,393
 2023,Hyundai,GENESIS,G70 AWD,17,,26,,20,,2750,,4,4,,5750.0,513,348,439
 2023,Hyundai,GENESIS,G70 RWD,21,,31,,25,,2200,,5,5,,3000.0,423,286,361
@@ -2667,8 +2667,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2023,Volkswagen Group of,Volkswagen,Jetta,31,,41,,35,,1250,,7,7,1750.0,,290,215,256
 2023,Volkswagen Group of,Volkswagen,Jetta,29,,42,,34,,1300,,7,7,1500.0,,309,212,265
 2023,Volkswagen Group of,Volkswagen,Jetta Sport/SE/SEL,29,,40,,33,,1350,,6,6,1250.0,,307,221,268
-2023,Volvo,"Volvo Cars of North America, LLC",S60 B5,26,,35,,30,,1800,,6,6,,1000.0,338,251,299
-2023,Volvo,"Volvo Cars of North America, LLC",S60 B5 AWD,25,,33,,28,,1950,,6,6,,1750.0,357,267,316
+2023,Volvo,Volvo,S60 B5,26,,35,,30,,1800,,6,6,,1000.0,338,251,299
+2023,Volvo,Volvo,S60 B5 AWD,25,,33,,28,,1950,,6,6,,1750.0,357,267,316
 2023,FCA US LLC,ALFA ROMEO,Giulia,24,,33,,27,,2050,,5,5,,2250.0,377,273,330
 2023,FCA US LLC,ALFA ROMEO,Giulia,17,,25,,20,,2750,,4,4,,5750.0,507,349,436
 2023,FCA US LLC,ALFA ROMEO,Giulia AWD,23,,31,,26,,2100,,5,5,,2500.0,395,291,348
@@ -2810,7 +2810,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2023,Toyota,TOYOTA,PRIUS XLE/LTD,52,,52,,52,,850,,9,9,3750.0,,168,169,169
 2023,Toyota,TOYOTA,TOYOTA CROWN AWD,29,,32,,30,,1500,,6,6,500.0,,303,272,293
 2023,Toyota,TOYOTA,TOYOTA CROWN AWD,42,,41,,41,,1100,,8,8,2500.0,,209,214,214
-2023,Volvo,"Volvo Cars of North America, LLC",S90 B6 AWD,23,,32,,26,,2100,,5,5,,2500.0,383,279,337
+2023,Volvo,Volvo,S90 B6 AWD,23,,32,,26,,2100,,5,5,,2500.0,383,279,337
 2023,Honda,Acura,INTEGRA,30,,37,,33,,1650,,6,6,,250.0,296,237,269
 2023,Honda,Acura,INTEGRA A-SPEC,29,,36,,32,,1700,,6,6,,500.0,304,245,277
 2023,Honda,Acura,INTEGRA A-SPEC,26,,36,,30,,1800,,6,6,,1000.0,339,241,293
@@ -2894,7 +2894,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2023,Subaru,Subaru,IMPREZA 5-Door,24,,31,,26,,1700,,5,5,,500.0,375,286,335
 2023,Subaru,Subaru,IMPREZA 5-Door SPORT,27,,35,,30,,1500,,6,6,500.0,,325,252,292
 2023,Subaru,Subaru,IMPREZA 5-Door SPORT,22,,30,,25,,1750,,5,5,,750.0,397,295,351
-2023,Volvo,"Volvo Cars of North America, LLC",V60CC B5 AWD,23,,30,,26,,2100,,5,5,,2500.0,380,290,339
+2023,Volvo,Volvo,V60CC B5 AWD,23,,30,,26,,2100,,5,5,,2500.0,380,290,339
 2023,Volkswagen Group of,Audi,A6 Allroad,21,,30,,24,,2300,,5,5,,3500.0,415,294,361
 2023,Volkswagen Group of,Audi,RS 6 Avant,14,,21,,17,,3200,,3,3,,8000.0,619,427,532
 2023,Mercedes-Benz,Mercedes-Benz,AMG E 63 S 4MATIC+ (SW),16,,24,,19,,2900,,4,4,,6500.0,549,374,470
@@ -2904,7 +2904,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2023,Nissan,NISSAN,MURANO FWD,20,,28,,23,,1900,,5,5,,1500.0,435,319,387
 2023,Rolls-Royce,Rolls-Royce Motor Cars Limited,Cullinan,12,,19,,14,,3900,,2,2,,11500.0,757,466,626
 2023,Rolls-Royce,Rolls-Royce Motor Cars Limited,Cullinan Black Badge,12,,19,,14,,3900,,2,2,,11500.0,757,466,626
-2023,Volvo,"Volvo Cars of North America, LLC",V90CC B6 AWD,22,,29,,25,,2200,,5,5,,3000.0,393,301,352
+2023,Volvo,Volvo,V90CC B6 AWD,22,,29,,25,,2200,,5,5,,3000.0,393,301,352
 2023,General Motors,Chevrolet,COLORADO 2WD,18,,23,,20,,2200,,4,4,,3000.0,490,392,446
 2023,General Motors,Chevrolet,COLORADO 2WD,20,,25,,22,,2000,,5,5,,2000.0,443,361,406
 2023,Ford Motor Company,Ford,MAVERICK FWD,23,,30,,25,,1750,,5,5,,750.0,391,404,355
@@ -3126,8 +3126,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2023,Volkswagen Group of,Volkswagen,Taos,28,,36,,31,,1450,,6,6,750.0,,317,248,286
 2023,Volkswagen Group of,Volkswagen,Tiguan,23,,30,,26,,1700,,5,5,,500.0,382,296,343
 2023,Volkswagen Group of,Volkswagen,Tiguan S,24,,31,,27,,1650,,5,5,,250.0,368,285,331
-2023,Volvo,"Volvo Cars of North America, LLC",XC40 B4,24,,32,,27,,2050,,5,5,,2250.0,373,278,330
-2023,Volvo,"Volvo Cars of North America, LLC",XC60 B5,23,,30,,26,,2100,,5,5,,2500.0,379,298,342
+2023,Volvo,Volvo,XC40 B4,24,,32,,27,,2050,,5,5,,2250.0,373,278,330
+2023,Volvo,Volvo,XC60 B5,23,,30,,26,,2100,,5,5,,2500.0,379,298,342
 2023,Honda,Acura,MDX AWD,19,,25,,21,,2600,,4,4,,5000.0,477,357,423
 2023,Honda,Acura,RDX AWD,21,,27,,23,,2400,,5,5,,4000.0,415,322,385
 2023,Honda,Acura,RDX AWD A-SPEC,21,,26,,23,,2400,,5,5,,4000.0,425,343,388
@@ -3308,9 +3308,9 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2023,Volkswagen Group of,Volkswagen,Taos 4Motion,25,,32,,28,,1600,,6,6,0.0,,358,278,322
 2023,Volkswagen Group of,Volkswagen,Tiguan 4Motion,22,,29,,25,,1750,,5,5,,750.0,401,303,357
 2023,Volkswagen Group of,Volkswagen,Tiguan R-Line 4Motion,21,,28,,24,,1850,,5,5,,1250.0,415,313,369
-2023,Volvo,"Volvo Cars of North America, LLC",XC40 B5 AWD,23,,30,,26,,2100,,5,5,,2500.0,386,296,345
-2023,Volvo,"Volvo Cars of North America, LLC",XC60 B5 AWD,23,,29,,25,,2200,,5,5,,3000.0,389,309,353
-2023,Volvo,"Volvo Cars of North America, LLC",XC60 B6 AWD,21,,27,,23,,2400,,5,5,,4000.0,415,327,375
+2023,Volvo,Volvo,XC40 B5 AWD,23,,30,,26,,2100,,5,5,,2500.0,386,296,345
+2023,Volvo,Volvo,XC60 B5 AWD,23,,29,,25,,2200,,5,5,,3000.0,389,309,353
+2023,Volvo,Volvo,XC60 B6 AWD,21,,27,,23,,2400,,5,5,,4000.0,415,327,375
 2023,BMW,BMW,X5 sDrive40i,21,,26,,23,,2400,,5,5,,4000.0,416,343,383
 2023,General Motors,Buick,ENCLAVE FWD,18,,26,,21,,2100,,4,4,,2500.0,491,342,424
 2023,General Motors,Cadillac,ESCALADE 2WD,21,,27,,23,,2100,,5,4,,2500.0,476,378,442
@@ -3354,8 +3354,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2023,Toyota,TOYOTA,4RUNNER 2WD,16,,19,,17,,2600,,3,3,,5000.0,539,460,503
 2023,Toyota,TOYOTA,SEQUOIA 2WD,21,,24,,22,,2000,,5,5,,2000.0,418,366,395
 2023,Honda,Acura,MDX AWD Type-S,17,,21,,19,,2900,,4,4,,6500.0,523,414,474
-2023,aston martin,Aston Martin Lagonda Ltd,DBX 707,15,,20,,17,,3200,,3,3,,8000.0,602,457,536
-2023,aston martin,Aston Martin Lagonda Ltd,DBX V8,14,,20,,16,,3400,,3,3,,9000.0,641,453,556
+2023,aston martin,Aston Martin,DBX 707,15,,20,,17,,3200,,3,3,,8000.0,602,457,536
+2023,aston martin,Aston Martin,DBX V8,14,,20,,16,,3400,,3,3,,9000.0,641,453,556
 2023,Volkswagen Group of,Audi,Q7,19,,25,,21,,2600,,4,4,,5000.0,461,357,414
 2023,Volkswagen Group of,Audi,Q7,18,,22,,20,,2750,,4,4,,5750.0,488,410,453
 2023,Volkswagen Group of,Audi,Q8,18,,23,,20,,2750,,4,4,,5750.0,478,391,439
@@ -3499,9 +3499,9 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2023,Toyota,TOYOTA,HIGHLANDER HYBRID AWD,35,,35,,35,,1250,,7,7,1750.0,,252,256,254
 2023,Toyota,TOYOTA,HIGHLANDER HYBRID AWD LTD/PLAT,35,,34,,35,,1250,,7,7,1750.0,,248,259,253
 2023,Toyota,TOYOTA,SEQUOIA 4WD,19,,22,,20,,2200,,4,4,,3000.0,469,397,437
-2023,Volvo,"Volvo Cars of North America, LLC",XC90 B5 AWD,22,,28,,25,,2200,,5,5,,3000.0,395,313,358
-2023,Volvo,"Volvo Cars of North America, LLC",XC90 B6 AWD,20,,26,,22,,2500,,5,5,,4500.0,449,342,401
-2024,aston martin,Aston Martin Lagonda Ltd,Valour,12,,18,,14,,4600,,2,2,,13250.0,719,497,619
+2023,Volvo,Volvo,XC90 B5 AWD,22,,28,,25,,2200,,5,5,,3000.0,395,313,358
+2023,Volvo,Volvo,XC90 B6 AWD,20,,26,,22,,2500,,5,5,,4500.0,449,342,401
+2024,aston martin,Aston Martin,Valour,12,,18,,14,,4600,,2,2,,13250.0,719,497,619
 2024,BMW,BMW,Z4 M40i,23,,31,,26,,2500,,5,5,,2750.0,386,280,338
 2024,BMW,BMW,Z4 sDrive30i,25,,33,,28,,2300,,6,6,,1750.0,351,266,312
 2024,Volkswagen Group of,Bugatti,Chiron Super Sport,8,,11,,9,,7150,,1,1,,26000.0,1135,788,979
@@ -3509,9 +3509,9 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2024,General Motors,Chevrolet,CORVETTE E-RAY,16,,24,,19,,3400,,4,4,,7250.0,571,368,480
 2024,General Motors,Chevrolet,CORVETTE Z06,12,,21,,15,,4300,,2,2,,11750.0,731,433,597
 2024,General Motors,Chevrolet,CORVETTE Z06 CARBON AERO,12,,19,,14,,4600,,2,2,,13250.0,755,480,631
-2024,Ferrari,"Ferrari North America, Inc.",812 Competizione,12,,16,,14,,4600,,2,2,,13250.0,724,564,652
-2024,Ferrari,"Ferrari North America, Inc.",812 Competizione A,12,,16,,14,,4600,,2,2,,13250.0,727,550,648
-2024,Ferrari,"Ferrari North America, Inc.",Ferrari Daytona SP3,12,,16,,13,,4950,,1,1,,15000.0,745,556,660
+2024,Ferrari,Ferrari,812 Competizione,12,,16,,14,,4600,,2,2,,13250.0,724,564,652
+2024,Ferrari,Ferrari,812 Competizione A,12,,16,,14,,4600,,2,2,,13250.0,727,550,648
+2024,Ferrari,Ferrari,Ferrari Daytona SP3,12,,16,,13,,4950,,1,1,,15000.0,745,556,660
 2024,Jaguar Land Rover L,Jaguar,F-TYPE P450 AWD R-Dynamic Conv,16,,24,,18,,3600,,4,4,,8250.0,571,369,481
 2024,Jaguar Land Rover L,Jaguar,F-TYPE P450 AWD R-Dynamic Coupe,16,,24,,18,,3600,,4,4,,8250.0,571,369,481
 2024,Jaguar Land Rover L,Jaguar,F-TYPE P450 RWD Convertible,17,,24,,19,,3400,,4,4,,7250.0,536,367,460
@@ -3556,10 +3556,10 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2024,BMW,TOYOTA,Supra 2.0,25,,31,,27,,2400,,5,5,,2250.0,350,288,322
 2024,BMW,TOYOTA,Supra 3.0,23,,31,,26,,2500,,5,5,,2750.0,385,289,342
 2024,BMW,TOYOTA,Supra 3.0,19,,27,,21,,3050,,4,4,,5500.0,476,331,411
-2024,aston martin,Aston Martin Lagonda Ltd,DB12 V8,15,,22,,17,,3800,,3,3,,9250.0,599,395,507
+2024,aston martin,Aston Martin,DB12 V8,15,,22,,17,,3800,,3,3,,9250.0,599,395,507
 2024,Volkswagen Group of,Bentley,Continental GTC,14,,21,,16,,4050,,3,3,,10500.0,632,432,542
 2024,Volkswagen Group of,Bentley,Continental GTC,12,,19,,14,,4600,,2,2,,13250.0,744,478,624
-2024,Ferrari,"Ferrari North America, Inc.",Roma Spider,17,,22,,19,,3400,,4,4,,7250.0,524,397,467
+2024,Ferrari,Ferrari,Roma Spider,17,,22,,19,,3400,,4,4,,7250.0,524,397,467
 2024,Toyota,LEXUS,LC 500 CONVERTIBLE,15,,25,,18,,3600,,4,4,,8250.0,598,356,489
 2024,Mercedes-Benz,Mercedes-Benz,AMG SL 55 4MATIC+,14,,21,,16,,4050,,3,3,,10500.0,645,428,548
 2024,Mercedes-Benz,Mercedes-Benz,AMG SL 63 4MATIC+,14,,21,,16,,4050,,3,3,,10500.0,645,428,548
@@ -3647,7 +3647,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2024,General Motors,Chevrolet,CAMARO,16,,26,,20,,3200,,4,4,,6250.0,548,336,452
 2024,General Motors,Chevrolet,CAMARO,16,,24,,19,,3400,,4,4,,7250.0,563,373,477
 2024,General Motors,Chevrolet,CAMARO,14,,20,,16,,4050,,3,3,,10500.0,649,454,561
-2024,Ferrari,"Ferrari North America, Inc.",Roma,17,,22,,19,,3400,,4,4,,7250.0,532,398,472
+2024,Ferrari,Ferrari,Roma,17,,22,,19,,3400,,4,4,,7250.0,532,398,472
 2024,Ford Motor Company,Ford,MUSTANG,22,,33,,26,,2100,,5,5,,750.0,402,266,341
 2024,Ford Motor Company,Ford,MUSTANG,16,,24,,19,,2850,,4,4,,4500.0,557,371,467
 2024,Ford Motor Company,Ford,MUSTANG,15,,24,,18,,3000,,4,4,,5250.0,589,369,492
@@ -3757,8 +3757,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2024,Volkswagen Group of,Volkswagen,Jetta,30,,41,,34,,1600,,7,7,1750.0,,302,216,263
 2024,Volkswagen Group of,Volkswagen,Jetta,29,,42,,34,,1600,,7,7,1750.0,,309,212,265
 2024,Volkswagen Group of,Volkswagen,Jetta Sport/SE/SEL,29,,40,,33,,1650,,6,6,1500.0,,313,221,272
-2024,Volvo,"Volvo Cars of North America, LLC",S60 B5,26,,35,,30,,2150,,6,6,,1000.0,336,250,297
-2024,Volvo,"Volvo Cars of North America, LLC",S60 B5 AWD,25,,33,,28,,2300,,6,6,,1750.0,357,267,316
+2024,Volvo,Volvo,S60 B5,26,,35,,30,,2150,,6,6,,1000.0,336,250,297
+2024,Volvo,Volvo,S60 B5 AWD,25,,33,,28,,2300,,6,6,,1750.0,357,267,316
 2024,FCA US LLC,ALFA ROMEO,Giulia,24,,33,,27,,2400,,5,5,,2250.0,377,273,330
 2024,FCA US LLC,ALFA ROMEO,Giulia,17,,25,,20,,3200,,4,4,,6250.0,507,349,436
 2024,FCA US LLC,ALFA ROMEO,Giulia AWD,23,,31,,26,,2500,,5,5,,2750.0,395,291,348
@@ -3867,7 +3867,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2024,Toyota,TOYOTA,PRIUS XLE/LTD,52,,52,,52,,1050,,8,8,4500.0,,168,169,169
 2024,Toyota,TOYOTA,TOYOTA CROWN AWD,29,,32,,30,,1800,,6,6,750.0,,303,272,293
 2024,Toyota,TOYOTA,TOYOTA CROWN AWD,42,,41,,41,,1300,,7,7,3250.0,,209,214,214
-2024,Volvo,"Volvo Cars of North America, LLC",S90 B6 AWD,22,,31,,25,,2600,,5,5,,3250.0,398,285,347
+2024,Volvo,Volvo,S90 B6 AWD,22,,31,,25,,2600,,5,5,,3250.0,398,285,347
 2024,Honda,Acura,INTEGRA,30,,37,,33,,1950,,6,6,0.0,,296,237,269
 2024,Honda,Acura,INTEGRA,21,,28,,24,,2700,,5,5,,3750.0,419,312,371
 2024,Honda,Acura,INTEGRA A-SPEC,29,,36,,32,,2000,,6,6,,250.0,304,245,277
@@ -3924,7 +3924,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2024,Mercedes-Benz,Mercedes-Benz,AMG GLA 35 4MATIC,22,,28,,24,,2700,,5,5,,3750.0,411,320,370
 2024,Subaru,Subaru,IMPREZA,27,,34,,30,,1800,,6,6,750.0,,328,260,297
 2024,Subaru,Subaru,IMPREZA,26,,33,,29,,1850,,6,6,500.0,,337,268,306
-2024,Volvo,"Volvo Cars of North America, LLC",V60CC B5 AWD,24,,31,,27,,2400,,5,5,,2250.0,375,283,334
+2024,Volvo,Volvo,V60CC B5 AWD,24,,31,,27,,2400,,5,5,,2250.0,375,283,334
 2024,Volkswagen Group of,Audi,A6 allroad quattro,22,,30,,25,,2600,,5,5,,3250.0,409,298,359
 2024,Volkswagen Group of,Audi,RS 6 Avant,14,,22,,17,,3800,,3,3,,9250.0,633,412,533
 2024,Mercedes-Benz,Mercedes-Benz,AMG GLB 35 4MATIC,21,,26,,23,,2800,,5,5,,4250.0,433,336,390
@@ -3933,7 +3933,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2024,Nissan,NISSAN,MURANO FWD,20,,28,,23,,2350,,5,5,,2000.0,435,319,388
 2024,Rolls-Royce,Rolls-Royce Motor Cars Limited,Cullinan,12,,19,,14,,4600,,2,2,,13250.0,757,468,627
 2024,Rolls-Royce,Rolls-Royce Motor Cars Limited,Cullinan Black Badge,12,,19,,14,,4600,,2,2,,13250.0,757,468,627
-2024,Volvo,"Volvo Cars of North America, LLC",V90CC B6 AWD,22,,29,,25,,2600,,5,5,,3250.0,403,304,358
+2024,Volvo,Volvo,V90CC B6 AWD,22,,29,,25,,2600,,5,5,,3250.0,403,304,358
 2024,General Motors,Chevrolet,COLORADO 2WD,20,,24,,22,,2450,,5,5,,2500.0,445,373,412
 2024,General Motors,Chevrolet,COLORADO 2WD,19,,24,,21,,2550,,4,4,,3000.0,462,367,420
 2024,Ford Motor Company,Ford,MAVERICK FWD,23,,30,,26,,2100,,5,5,,750.0,391,297,342
@@ -4306,8 +4306,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2024,Volkswagen Group of,Volkswagen,Taos 4Motion,24,,32,,27,,2000,,5,5,,250.0,368,282,329
 2024,Volkswagen Group of,Volkswagen,Tiguan 4Motion,22,,29,,25,,2150,,5,5,,1000.0,401,303,357
 2024,Volkswagen Group of,Volkswagen,Tiguan R-Line 4Motion,22,,29,,24,,2250,,5,5,,1500.0,414,308,367
-2024,Volvo,"Volvo Cars of North America, LLC",XC40 B5 AWD,24,,30,,26,,2500,,5,5,,2750.0,373,295,338
-2024,Volvo,"Volvo Cars of North America, LLC",XC60 B5 AWD,22,,28,,25,,2600,,5,5,,3250.0,402,316,363
+2024,Volvo,Volvo,XC40 B5 AWD,24,,30,,26,,2500,,5,5,,2750.0,373,295,338
+2024,Volvo,Volvo,XC60 B5 AWD,22,,28,,25,,2600,,5,5,,3250.0,402,316,363
 2024,BMW,BMW,X5 sDrive40i,23,,27,,25,,2600,,5,5,,3250.0,383,331,360
 2024,General Motors,Buick,ENCLAVE FWD,18,,26,,21,,2550,,4,4,,3000.0,506,343,433
 2024,General Motors,Cadillac,ESCALADE 2WD,21,,27,,23,,2850,,5,4,,4500.0,476,378,442
@@ -4349,8 +4349,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2024,Toyota,TOYOTA,GRAND HIGHLANDER LIMITED,21,,28,,24,,2250,,5,5,,1500.0,410,312,366
 2024,Toyota,TOYOTA,SEQUOIA 2WD,21,,24,,22,,2450,,5,5,,2500.0,418,366,395
 2024,Honda,Acura,MDX AWD Type-S,17,,21,,19,,3400,,4,4,,7250.0,523,414,474
-2024,aston martin,Aston Martin Lagonda Ltd,DBX 707,15,,20,,17,,3800,,3,3,,9250.0,602,457,536
-2024,aston martin,Aston Martin Lagonda Ltd,DBX V8,14,,20,,16,,4050,,3,3,,10500.0,641,453,556
+2024,aston martin,Aston Martin,DBX 707,15,,20,,17,,3800,,3,3,,9250.0,602,457,536
+2024,aston martin,Aston Martin,DBX V8,14,,20,,16,,4050,,3,3,,10500.0,641,453,556
 2024,Volkswagen Group of,Audi,Q7 quattro,19,,25,,21,,3050,,4,4,,5500.0,464,356,416
 2024,Volkswagen Group of,Audi,Q7 quattro,19,,24,,21,,3050,,4,4,,5500.0,480,371,431
 2024,Volkswagen Group of,Audi,Q8 quattro,17,,23,,19,,3400,,4,4,,7250.0,514,392,459
@@ -4385,7 +4385,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2024,FCA US LLC,Dodge,Durango AWD,14,,22,,17,,3550,,3,3,,8000.0,633,410,533
 2024,FCA US LLC,Dodge,Durango SRT AWD,12,,17,,13,,4950,,1,1,,15000.0,773,520,659
 2024,FCA US LLC,Dodge,Durango SRT AWD,13,,19,,15,,4300,,2,2,,11750.0,687,459,584
-2024,Ferrari,"Ferrari North America, Inc.",Purosangue,11,,15,,12,,5400,,1,1,,17250.0,825,573,711
+2024,Ferrari,Ferrari,Purosangue,11,,15,,12,,5400,,1,1,,17250.0,825,573,711
 2024,Ford Motor Company,Ford,BRONCO RAPTOR 4WD,15,,16,,15,,3600,,2,2,,8250.0,592,558,577
 2024,Ford Motor Company,Ford,EXPEDITION 4WD,16,,22,,18,,3000,,4,4,,5250.0,556,399,485
 2024,Ford Motor Company,Ford,EXPEDITION TIMBERLINE 4WD,16,,19,,17,,3200,,3,3,,6250.0,549,468,523
@@ -4485,9 +4485,9 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2024,Toyota,TOYOTA,HIGHLANDER HYBRID AWD LTD/PLAT,35,,34,,35,,1550,,7,7,2000.0,,248,259,253
 2024,Toyota,TOYOTA,LAND CRUISER,22,,25,,23,,2800,,5,5,,4250.0,401,355,380
 2024,Toyota,TOYOTA,SEQUOIA 4WD,19,,22,,20,,2700,,4,4,,3750.0,474,397,439
-2024,Volvo,"Volvo Cars of North America, LLC",XC90 B5 AWD,22,,27,,24,,2700,,5,5,,3750.0,407,323,369
-2024,Volvo,"Volvo Cars of North America, LLC",XC90 B6 AWD,20,,26,,23,,2800,,5,5,,4250.0,435,342,393
-2025,aston martin,Aston Martin Lagonda Ltd,Vantage,15,,22,,18,,3600,,4,4,,8250.0,579,399,498
+2024,Volvo,Volvo,XC90 B5 AWD,22,,27,,24,,2700,,5,5,,3750.0,407,323,369
+2024,Volvo,Volvo,XC90 B6 AWD,20,,26,,23,,2800,,5,5,,4250.0,435,342,393
+2025,aston martin,Aston Martin,Vantage,15,,22,,18,,3600,,4,4,,8250.0,579,399,498
 2025,BMW,BMW,Z4 M40i,23,,29,,25,,2600,,5,5,,3250.0,386,297,346
 2025,BMW,BMW,Z4 M40i,19,,26,,22,,2950,,5,5,,5000.0,469,332,407
 2025,BMW,BMW,Z4 sDrive30i,25,,33,,28,,2300,,6,6,,2000.0,351,266,312
@@ -4496,8 +4496,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2025,General Motors,Chevrolet,CORVETTE E-RAY,16,,24,,19,,3400,,4,4,,7250.0,566,368,477
 2025,General Motors,Chevrolet,CORVETTE Z06,12,,20,,14,,4600,,2,2,,13250.0,755,442,614
 2025,General Motors,Chevrolet,CORVETTE Z06 CARBON AERO,12,,19,,14,,4600,,2,2,,13250.0,756,478,631
-2025,Ferrari,"Ferrari North America, Inc.",F167 ABA,12,,19,,14,,4600,,2,2,,13250.0,736,477,619
-2025,Ferrari,"Ferrari North America, Inc.",Ferrari Daytona SP3,12,,16,,13,,4950,,1,1,,15000.0,745,556,660
+2025,Ferrari,Ferrari,F167 ABA,12,,19,,14,,4600,,2,2,,13250.0,736,477,619
+2025,Ferrari,Ferrari,Ferrari Daytona SP3,12,,16,,13,,4950,,1,1,,15000.0,745,556,660
 2025,Volkswagen Group of,Lamborghini,Revuelto,10,,17,,12,,5400,,1,1,,14750.0,928,540,753
 2025,Maserati,MASERATI,MC20,15,,25,,18,,3600,,4,4,,8250.0,576,351,474
 2025,Maserati,MASERATI,MC20 Spyder,15,,25,,18,,3600,,4,4,,8250.0,583,358,482
@@ -4510,8 +4510,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2025,BMW,TOYOTA,Supra 2.0,25,,31,,27,,2400,,5,5,,2250.0,350,288,322
 2025,BMW,TOYOTA,Supra 3.0,23,,31,,26,,2500,,5,5,,2750.0,385,289,342
 2025,BMW,TOYOTA,Supra 3.0,19,,27,,21,,3050,,4,4,,5750.0,476,331,411
-2025,aston martin,Aston Martin Lagonda Ltd,DB12 V8,15,,22,,17,,3800,,3,3,,9250.0,599,395,507
-2025,Ferrari,"Ferrari North America, Inc.",Roma Spider,17,,22,,19,,3400,,4,4,,7250.0,524,397,467
+2025,aston martin,Aston Martin,DB12 V8,15,,22,,17,,3800,,3,3,,9250.0,599,395,507
+2025,Ferrari,Ferrari,Roma Spider,17,,22,,19,,3400,,4,4,,7250.0,524,397,467
 2025,Mercedes-Benz,Mercedes-Benz,AMG SL 43,19,,27,,22,,2950,,5,5,,5000.0,459,329,400
 2025,Mercedes-Benz,Mercedes-Benz,AMG SL 55 4MATIC+,13,,21,,16,,4050,,3,3,,10500.0,667,424,558
 2025,Mercedes-Benz,Mercedes-Benz,AMG SL 63 4MATIC+,13,,21,,16,,4050,,3,3,,10500.0,667,424,558
@@ -4621,8 +4621,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2025,Volkswagen Group of,Volkswagen,GLI,26,,36,,30,,1800,,6,6,750.0,,346,247,301
 2025,Volkswagen Group of,Volkswagen,Jetta,29,,39,,33,,1650,,6,6,1500.0,,307,227,271
 2025,Volkswagen Group of,Volkswagen,Jetta Sport/SE/SEL,29,,40,,33,,1650,,6,6,1500.0,,310,224,271
-2025,Volvo,"Volvo Cars of North America, LLC",S60 B5,27,,36,,30,,2150,,6,6,,1000.0,333,248,295
-2025,Volvo,"Volvo Cars of North America, LLC",S60 B5 AWD,25,,34,,28,,2300,,6,6,,2000.0,352,265,313
+2025,Volvo,Volvo,S60 B5,27,,36,,30,,2150,,6,6,,1000.0,333,248,295
+2025,Volvo,Volvo,S60 B5 AWD,25,,34,,28,,2300,,6,6,,2000.0,352,265,313
 2025,FCA US LLC,ALFA ROMEO,Giulia,24,,33,,27,,2400,,5,5,,2250.0,377,273,330
 2025,FCA US LLC,ALFA ROMEO,Giulia AWD,23,,31,,26,,2500,,5,5,,2750.0,395,291,348
 2025,Volkswagen Group of,Audi,A5 Sportback quattro,26,,36,,29,,2200,,6,6,,1500.0,344,248,301
@@ -4691,7 +4691,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2025,Toyota,TOYOTA,CAMRY HEV FF SE/XLE/XSE,48,,47,,47,,1150,,8,8,4000.0,,184,188,186
 2025,Toyota,TOYOTA,TOYOTA CROWN AWD,29,,32,,30,,1800,,6,6,750.0,,303,272,293
 2025,Toyota,TOYOTA,TOYOTA CROWN AWD,42,,41,,41,,1300,,7,7,3000.0,,209,214,214
-2025,Volvo,"Volvo Cars of North America, LLC",S90 B6 AWD,23,,31,,26,,2500,,5,5,,2750.0,386,287,341
+2025,Volvo,Volvo,S90 B6 AWD,23,,31,,26,,2500,,5,5,,2750.0,386,287,341
 2025,Honda,Acura,INTEGRA,30,,37,,33,,1950,,6,6,,250.0,296,237,269
 2025,Honda,Acura,INTEGRA,21,,28,,24,,2700,,5,5,,3750.0,419,312,371
 2025,Honda,Acura,INTEGRA A-SPEC,29,,36,,32,,2000,,6,6,,500.0,304,245,277
@@ -4740,12 +4740,12 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2025,Subaru,Subaru,IMPREZA,27,,34,,30,,1800,,6,6,750.0,,328,260,297
 2025,Subaru,Subaru,IMPREZA,26,,33,,29,,1850,,6,6,500.0,,337,268,306
 2025,Toyota,TOYOTA,TOYOTA CROWN SIGNIA AWD,39,,37,,38,,1400,,7,7,2500.0,,226,237,231
-2025,Volvo,"Volvo Cars of North America, LLC",V60CC B5 AWD,24,,31,,27,,2400,,5,5,,2250.0,369,283,331
+2025,Volvo,Volvo,V60CC B5 AWD,24,,31,,27,,2400,,5,5,,2250.0,369,283,331
 2025,Volkswagen Group of,Audi,A6 allroad quattro,22,,30,,25,,2600,,5,5,,3250.0,406,295,356
 2025,Volkswagen Group of,Audi,RS 6 Avant,14,,21,,17,,3800,,3,3,,9250.0,638,416,538
 2025,Mercedes-Benz,Mercedes-Benz,AMG GLB 35 4MATIC,21,,26,,23,,2800,,5,5,,4250.0,433,336,390
 2025,Mercedes-Benz,Mercedes-Benz,E 450 4MATIC All-Terrain Wagon,22,,31,,25,,2600,,5,5,,3250.0,402,289,351
-2025,Volvo,"Volvo Cars of North America, LLC",V90CC B6 AWD,22,,29,,25,,2600,,5,5,,3250.0,403,304,358
+2025,Volvo,Volvo,V90CC B6 AWD,22,,29,,25,,2600,,5,5,,3250.0,403,304,358
 2025,General Motors,Chevrolet,SILVERADO 2WD,17,,21,,19,,2850,,4,4,,4250.0,506,426,470
 2025,General Motors,Chevrolet,SILVERADO 2WD,18,,21,,19,,2850,,4,4,,4250.0,503,426,468
 2025,General Motors,Chevrolet,SILVERADO 2WD,23,,29,,26,,2550,,5,5,,2250.0,434,356,399
@@ -4995,8 +4995,8 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2025,Volkswagen Group of,Volkswagen,Atlas Cross Sport 4Motion,19,,26,,21,,2550,,4,4,,3000.0,481,346,420
 2025,Volkswagen Group of,Volkswagen,Atlas SE 4Motion,19,,26,,21,,2550,,4,4,,3000.0,481,346,420
 2025,Volkswagen Group of,Volkswagen,Atlas SEL 4Motion,18,,25,,21,,2550,,4,4,,3000.0,486,357,428
-2025,Volvo,"Volvo Cars of North America, LLC",XC40 B5 AWD,23,,30,,26,,2500,,5,5,,2750.0,381,296,343
-2025,Volvo,"Volvo Cars of North America, LLC",XC60 B5 AWD,23,,30,,26,,2500,,5,5,,2750.0,384,292,343
+2025,Volvo,Volvo,XC40 B5 AWD,23,,30,,26,,2500,,5,5,,2750.0,381,296,343
+2025,Volvo,Volvo,XC60 B5 AWD,23,,30,,26,,2500,,5,5,,2750.0,384,292,343
 2025,BMW,BMW,X5 sDrive40i,23,,27,,25,,2600,,5,5,,3250.0,383,331,360
 2025,General Motors,Buick,ENCLAVE FWD,20,,27,,23,,2350,,5,5,,2000.0,431,334,387
 2025,General Motors,Cadillac,ESCALADE 2WD,15,,19,,17,,3800,,3,3,,9250.0,594,467,537
@@ -5024,7 +5024,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2025,Ford Motor Company,Lincoln,AVIATOR RWD,18,,25,,21,,2550,,4,4,,3000.0,488,348,425
 2025,Toyota,TOYOTA,SEQUOIA 2WD,21,,24,,22,,2450,,5,5,,2500.0,430,370,403
 2025,Honda,Acura,MDX AWD Type-S,17,,21,,19,,3400,,4,4,,7250.0,523,414,474
-2025,aston martin,Aston Martin Lagonda Ltd,DBX 707,15,,20,,17,,3800,,3,3,,9250.0,602,457,537
+2025,aston martin,Aston Martin,DBX 707,15,,20,,17,,3800,,3,3,,9250.0,602,457,537
 2025,Volkswagen Group of,Audi,Q7,20,,26,,22,,2950,,5,5,,5000.0,453,347,405
 2025,Volkswagen Group of,Audi,Q7,18,,23,,20,,3200,,4,4,,6500.0,492,380,442
 2025,Volkswagen Group of,Audi,Q8 quattro,17,,23,,19,,3400,,4,4,,7250.0,514,392,459
@@ -5053,7 +5053,7 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2025,FCA US LLC,Dodge,Durango AWD,17,,24,,20,,2700,,4,4,,3500.0,510,377,450
 2025,FCA US LLC,Dodge,Durango AWD,14,,22,,17,,3550,,3,3,,8250.0,633,410,533
 2025,FCA US LLC,Dodge,Durango SRT AWD,12,,17,,13,,4950,,1,1,,15000.0,773,520,659
-2025,Ferrari,"Ferrari North America, Inc.",Purosangue,11,,15,,12,,5400,,1,1,,17000.0,825,573,711
+2025,Ferrari,Ferrari,Purosangue,11,,15,,12,,5400,,1,1,,17000.0,825,573,711
 2025,Ford Motor Company,Ford,EXPLORER AWD,20,,27,,23,,2350,,5,5,,2000.0,448,329,394
 2025,Ford Motor Company,Ford,EXPLORER AWD,18,,25,,21,,2550,,4,4,,3000.0,490,352,428
 2025,Ford Motor Company,Ford,EXPLORER AWD,18,,25,,20,,2700,,4,4,,3500.0,503,361,439
@@ -5129,5 +5129,5 @@ Year,Manufacturer,Division,Car_Model,City_FE_Conventional,City_FE_Alternative,Hw
 2025,Subaru,Subaru,ASCENT AWD,20,,26,,22,,2450,,5,5,,2500.0,444,343,398
 2025,Subaru,Subaru,ASCENT LIMITED/TOURING/ONYX EDITION AWD,19,,25,,21,,2550,,4,4,,3000.0,470,356,419
 2025,Toyota,TOYOTA,SEQUOIA 4WD,19,,22,,20,,2700,,4,4,,3500.0,474,397,439
-2025,Volvo,"Volvo Cars of North America, LLC",XC90 B5 AWD,23,,30,,26,,2500,,5,5,,2750.0,381,298,343
-2025,Volvo,"Volvo Cars of North America, LLC",XC90 B6 AWD,20,,26,,23,,2800,,5,5,,4250.0,435,342,393
+2025,Volvo,Volvo,XC90 B5 AWD,23,,30,,26,,2500,,5,5,,2750.0,381,298,343
+2025,Volvo,Volvo,XC90 B6 AWD,20,,26,,23,,2800,,5,5,,4250.0,435,342,393

@@ -51,5 +51,8 @@ df = df.rename(columns={
 })
 
 df = df.loc[:,~df.columns.duplicated()].copy()
+df['Division'].replace('Volvo Cars of North America, LLC', 'Volvo', inplace=True)
+df['Division'].replace('Aston Martin Lagonda Ltd', 'Aston Martin', inplace=True)
+df['Division'].replace('\"Ferrari North America, Inc.\"', 'Ferrari', inplace=True)
 print(df)
 df.to_csv("data.csv", index=False)
