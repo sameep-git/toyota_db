@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from sqlalchemy import create_engine
 
 # xl2021 = pd.read_excel("2021.xlsx", "21", index_col = False)
 # xl2022 = pd.read_excel("2022.xlsx", "22", index_col = False)
@@ -13,15 +14,42 @@ import numpy as np
 # xl2024.to_csv("data2024.csv", encoding='utf-8', index=False)
 # xl2025.to_csv("data2025.csv", encoding='utf-8', index=False)
 
+engine = create_engine('sqlite://',
+                       echo=False)
+
 csvFiles = ['data2021.csv', 'data2022.csv', 'data2023.csv', 'data2024.csv', 'data2025.csv']
 
 df = pd.concat(map(pd.read_csv, csvFiles), ignore_index=True)
 df = df[['Model Year', 'Mfr Name', 'Division', 'Carline', 
          'City FE (Guide) - Conventional Fuel', 'City2 FE (Guide) - Alternative Fuel', 'Hwy FE (Guide) - Conventional Fuel',
          'Hwy2 Fuel FE (Guide) - Alternative Fuel', 'Comb FE (Guide) - Conventional Fuel', 'Comb2 Fuel FE (Guide) - Alternative Fuel',
-         'Annual Fuel1 Cost - Conventional Fuel', 'Fuel2 EPA Calculated Annual Fuel Cost - Alternative Fuel', 'FE Rating (1-10 rating on Label)',
+         'EPA Calculated Annual Fuel Cost - Conventional Fuel -----  Annual fuel cost error. Please revise Verify. ', 'Fuel2 EPA Calculated Annual Fuel Cost - Alternative Fuel', 'FE Rating (1-10 rating on Label)',
          'GHG Rating (1-10 rating on Label)', '$ You Save over 5 years (amount saved in fuel costs over 5 years - on label) ',
          '$ You Spend over 5 years (increased amount spent in fuel costs over 5 years - on label) ',
-         'City FE (Guide) - Conventional Fuel', 'Hwy FE (Guide) - Conventional Fuel', 'Comb FE (Guide) - Conventional Fuel']]
+         'City CO2 Rounded Adjusted', 'Hwy CO2 Rounded Adjusted', 'Comb CO2 Rounded Adjusted (as shown on FE Label)']]
 
+df = df.rename(columns={
+    "Model Year": "Year",
+    "Mfr Name" : "Manufacturer",
+    "Division": "Division",
+    "Carline": "Car_Model",
+    "City FE (Guide) - Conventional Fuel": "City_FE_Conventional",
+    "City2 FE (Guide) - Alternative Fuel": "City_FE_Alternative",
+    "Hwy FE (Guide) - Conventional Fuel": "Hwy_FE_Conventional",
+    "Hwy2 FE (Guide) - Alternative Fuel": "Hwy_FE_Alternative",
+    "Comb FE (Guide) - Conventional Fuel": "Comb_FE_Conventional",
+    "Comb2 FE (Guide) - Alternative Fuel": "Comb_FE_Alternative",
+    "EPA Calculated Annual Fuel Cost - Conventional Fuel -----  Annual fuel cost error. Please revise Verify. ": "Annual_Fuel_Cost_Conventional",
+    "Fuel2 EPA Calculated Annual Fuel Cost - Alternative Fuel": "Annual_Fuel_Cost_Alternative",
+    "FE Rating (1-10 rating on Label)": "Fuel_Efficiency_Rating",
+    "GHG Rating (1-10 rating on Label)": "GHG_Rating",
+    "$ You Save over 5 years (amount saved in fuel costs over 5 years - on label) ": "Savings_5Yrs",
+    "$ You Spend over 5 years (increased amount spent in fuel costs over 5 years - on label) ": "Spending_5Yrs",
+    "City CO2 Rounded Adjusted": "City_CO2",
+    "Hwy CO2 Rounded Adjusted": "Hwy_CO2",
+    "Comb CO2 Rounded Adjusted (as shown on FE Label)": "Comb_CO2"
+})
+
+df = df.loc[:,~df.columns.duplicated()].copy()
 print(df)
+df.to_csv("data.csv", index=False)
