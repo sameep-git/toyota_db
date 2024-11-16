@@ -50,20 +50,31 @@ df = df.rename(columns={
     "Comb CO2 Rounded Adjusted (as shown on FE Label)": "Comb_CO2"
 })
 
+# Remove any duplicate columns if any
 df = df.loc[:,~df.columns.duplicated()].copy()
+
+# Rename some divisions for better clarity
 df['Division'].replace('Volvo Cars of North America, LLC', 'Volvo', inplace=True)
 df['Division'].replace('Aston Martin Lagonda Ltd', 'Aston Martin', inplace=True)
-df['Division'].replace('\"Ferrari North America, Inc.\"', 'Ferrari', inplace=True)
+df['Division'].replace('Ferrari North America, Inc.', 'Ferrari', inplace=True)
+df['Division'].replace('Lotus Cars Ltd', 'Lotus', inplace=True)
+df['Division'].replace('Roush Industries, Inc.', 'Roush', inplace=True)
+df['Division'].replace('HYUNDAI MOTOR COMPANY', 'Hyundai', inplace=True)
+df['Division'].replace('Mitsubishi Motors Corporation', 'Mitsubishi', inplace=True)
+df['Division'].replace('Rolls-Royce Motor Cars Limited', 'Rolls-Royce', inplace=True)
+df['Division'].replace('TOYOTA', 'Toyota', inplace=True)
 
-
+# Merge some columns for better data processing and database practices
 df['City_FE_Alternative'].fillna(df['City_FE_Conventional'], inplace=True)
 df['Hwy2 Fuel FE (Guide) - Alternative Fuel'].fillna(df['Hwy_FE_Conventional'], inplace=True)
 df['Comb2 Fuel FE (Guide) - Alternative Fuel'].fillna(df['Comb_FE_Conventional'], inplace=True)
 
+# Drop extra columns
 df.drop("City_FE_Conventional", axis=1, inplace=True)
 df.drop("Hwy_FE_Conventional", axis=1, inplace=True)
 df.drop("Comb_FE_Conventional", axis=1, inplace=True)
 
+# Rename merged columns for better insight
 df.rename(columns={
 "City_FE_Alternative" : "City_FE",
 "Hwy2 Fuel FE (Guide) - Alternative Fuel" : "Hwy_FE",
@@ -74,8 +85,12 @@ df['Savings_5Yrs'] = -df['Savings_5Yrs'].abs()
 df['Savings_5Yrs'].fillna(df['Spending_5Yrs'], inplace=True)
 
 df.drop("Spending_5Yrs", axis=1, inplace=True)
+
 df.rename(columns={
     "Savings_5Yrs" : "Money_5Yrs"
 }, inplace=True)
+
+# Dropped because it is not a useful indicator
+df.drop("Annual_Fuel_Cost_Alternative", axis = 1, inplace = True)
 print(df)
 df.to_csv("data.csv", index=False)
